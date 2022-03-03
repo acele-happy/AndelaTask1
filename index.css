@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #111;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #999;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+}
+
+.left{
+    background: #0f2d56;
+    width: 20%;
+}
+.right{
+    width:80%;
+    padding: 10px;
+}
+.color{
+    color: #0f2d56;
+}
+.social{
+    display: flex;
+}
+.social div p{
+    padding: 5px;
+}
+.social:nth-last-child(){
+    margin-left: 10px;
+    background: blue;
+}
