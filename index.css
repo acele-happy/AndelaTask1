@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #111;
+    line-height: 0.9;
+}
+*>*{
+    margin-bottom: 10px;
 }
 
 .container{
@@ -21,10 +25,11 @@
 }
 .right{
     width:80%;
-    padding: 10px;
+    padding: 35px;
 }
 .color{
     color: #0f2d56;
+    margin-bottom: 20px;
 }
 .social{
     display: flex;
@@ -35,4 +40,115 @@
 .social:nth-last-child(){
     margin-left: 10px;
     background: blue;
+}
+.line{
+    width: 1px;
+    height: auto;
+    background: #0f2d56;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.big-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    background: #0f2d56;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.big-circle> i{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.big-circle .fa{
+    color: #fff;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background: #0f2d56;
+    border-radius: 50%;
+}
+
+
+.big-content{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.briefcase{
+    position: relative;
+    top: -215px;
+}
+.c1{
+    position: relative;
+    top: -210px;
+}
+.c2{
+    position: relative;
+    top: -83px;
+}
+.graduation{
+    position: relative;
+    top: 40px;
+}
+.c3{
+    position: relative;
+    top: 50px;
+}
+
+.puzzle{
+    position: relative;
+    top: 125px;
+}
+.c4{
+    position: relative;
+    top: 130px;
+}
+.c5{
+    position: relative;
+    top: 134px;
+}
+.c6{
+    position: relative;
+    top: 138px;
+}
+.c7{
+    position: relative;
+    top: 145px;
+}
+
+.television{
+    position: relative;
+    top: 145px;
+}
+
+.c8{
+    position: relative;
+    top: 150px;
+}
+.c9{
+    position: relative;
+    top: 178px;
+}
+
+.certificate{
+    position: relative;
+    top: 200px;
+}
+
+.c10{
+    position: relative;
+    top: 212px;
+}
+
+.c11{
+    position: relative;
+    top: 212px;
 }
