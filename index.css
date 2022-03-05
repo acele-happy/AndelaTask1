@@ -1,211 +1,214 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #111;
-    line-height: 0.9;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  line-height: 0.9;
 }
-*>*{
-    margin-bottom: 10px;
-}
-
-.container{
-    width: 90%;
-    margin: auto;
-    border: 1px solid #999;
-    border-radius: 5px;
-    height: auto;
-    display: flex;
+* > * {
+  margin-bottom: 10px;
 }
 
-.left{
-    background: #0f2d56;
-    width: 20%;
-}
-.right{
-    width:80%;
-    padding: 35px;
-}
-.color{
-    color: #0f2d56;
-    margin-bottom: 20px;
-}
-.social{
-    display: flex;
-}
-.social div p{
-    padding: 5px;
-}
-.social:nth-last-child(){
-    margin-left: 10px;
-    background: blue;
-}
-.line{
-    width: 1px;
-    height: auto;
-    background: #0f2d56;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-right: 50px;
+.container {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #999;
+  border-radius: 5px;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: 40px;
 }
 
-.big-circle{
-    width: 30px;
-    height: 30px;
-    border-radius: 60%;
-    background: #0f2d56;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.left {
+  background: #0f2d56;
+  width: 20%;
 }
-.big-circle> i{
-    position: relative;
-    top: 5px;
-    left: 5px;
+.right {
+  width: 80%;
+  padding: 35px;
 }
-.big-circle .fa{
-    color: #fff;
+.color {
+  color: #0f2d56;
+  margin-bottom: 20px;
 }
-
-.circle{
-    width: 10px;
-    height: 10px;
-    background: #0f2d56;
-    border-radius: 50%;
+.social {
+  display: flex;
 }
-
-
-.big-content{
-    display: flex;
-    /* justify-content: space-between; */
+.social div p {
+  padding: 5px;
 }
-.briefcase{
-    position: relative;
-    top: -240px;
+.social:nth-last-child() {
+  margin-left: 10px;
+  background: blue;
 }
-.c1{
-    position: relative;
-    top: -235px;
-}
-.c2{
-    position: relative;
-    top: -105px;
-}
-.graduation{
-    position: relative;
-    top: 16px;
-}
-.c3{
-    position: relative;
-    top: 26px;
+.line {
+  width: 1px;
+  height: auto;
+  background: #0f2d56;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 50px;
 }
 
-.puzzle{
-    position: relative;
-    top: 95px;
+.big-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  background: #0f2d56;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.c4{
-    position: relative;
-    top: 105px;
+.big-circle > i {
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
-.c5{
-    position: relative;
-    top: 105px;
-}
-.c6{
-    position: relative;
-    top: 110px;
-}
-.c7{
-    position: relative;
-    top: 115px;
+.big-circle .fa {
+  color: #fff;
 }
 
-.television{
-    position: relative;
-    top: 120px;
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #0f2d56;
+  border-radius: 50%;
 }
 
-.c8{
-    position: relative;
-    top: 200px;
+.big-content {
+  display: flex;
+  /* justify-content: space-between; */
 }
-.c9{
-    position: relative;
-    top: 105px;
-    /* background: red; */
+.briefcase {
+  position: relative;
+  top: -240px;
 }
-
-.certificate{
-    position: relative;
-    top: 230px;
+.c1 {
+  position: relative;
+  top: -235px;
 }
-
-.c10{
-    position: relative;
-    top: 232px;
+.c2 {
+  position: relative;
+  top: -105px;
 }
-
-.c11{
-    position: relative;
-    top: 238px;
+.graduation {
+  position: relative;
+  top: 16px;
 }
-
-.components{
-    position: relative;
-    display: flex;
-    /* background: red; */
-    justify-content: space-between;
-    width: 135%;
+.c3 {
+  position: relative;
+  top: 26px;
 }
 
-.gray{
-    background: #999;
+.puzzle {
+  position: relative;
+  top: 95px;
 }
-.exc, .verygood{
-    display: flex;
+.c4 {
+  position: relative;
+  top: 105px;
 }
-.exc>div, .verygood>div{
-    margin: 5px;
+.c5 {
+  position: relative;
+  top: 105px;
 }
-.components >div p{
-    margin-left: 25px
+.c6 {
+  position: relative;
+  top: 110px;
 }
-
-.icon>span .fa{
-    color: #0f2d56;
-    padding: 5px;
-    border-radius: 50%;
-}
-.left .white b{
-    position: relative;
-    color: #fff;
-    left: 100px;
+.c7 {
+  position: relative;
+  top: 115px;
 }
 
-.left p{
-    position: relative
+.television {
+  position: relative;
+  top: 120px;
 }
-.p1{
-    top: 340px;
+
+.c8 {
+  position: relative;
+  top: 200px;
 }
-.p2{
-    top: 465px;
+.c9 {
+  position: relative;
+  top: 105px;
+  /* background: red; */
 }
-.p3{
-    top: 630px;
+
+.certificate {
+  position: relative;
+  top: 230px;
 }
-.p4{
-    top: 86%;
-    left: 70px;
+
+.c10 {
+  position: relative;
+  top: 232px;
 }
-.p5{
-    top: 86%;
-    left: 70px;
+
+.c11 {
+  position: relative;
+  top: 238px;
 }
-.content p{
-    margin-bottom: 7px;
+
+.components {
+  position: relative;
+  display: flex;
+  /* background: red; */
+  justify-content: space-between;
+  width: 135%;
+}
+
+.gray {
+  background: #999;
+}
+.exc,
+.verygood {
+  display: flex;
+}
+.exc > div,
+.verygood > div {
+  margin: 5px;
+}
+.components > div p {
+  margin-left: 25px;
+}
+
+.icon > span .fa {
+  color: #0f2d56;
+  padding: 5px;
+  border-radius: 50%;
+}
+.left .white b {
+  position: relative;
+  color: #fff;
+  left: 100px;
+}
+
+.left p {
+  position: relative;
+}
+.p1 {
+  top: 340px;
+}
+.p2 {
+  top: 465px;
+}
+.p3 {
+  top: 630px;
+}
+.p4 {
+  top: 86%;
+  left: 70px;
+}
+.p5 {
+  top: 86%;
+  left: 70px;
+}
+.content p {
+  margin-bottom: 7px;
 }
