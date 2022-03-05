@@ -84,71 +84,93 @@
 }
 .briefcase{
     position: relative;
-    top: -215px;
+    top: -240px;
 }
 .c1{
     position: relative;
-    top: -210px;
+    top: -235px;
 }
 .c2{
     position: relative;
-    top: -83px;
+    top: -105px;
 }
 .graduation{
     position: relative;
-    top: 40px;
+    top: 16px;
 }
 .c3{
     position: relative;
-    top: 50px;
+    top: 26px;
 }
 
 .puzzle{
     position: relative;
-    top: 125px;
+    top: 95px;
 }
 .c4{
     position: relative;
-    top: 130px;
+    top: 105px;
 }
 .c5{
     position: relative;
-    top: 134px;
+    top: 105px;
 }
 .c6{
     position: relative;
-    top: 138px;
+    top: 110px;
 }
 .c7{
     position: relative;
-    top: 145px;
+    top: 115px;
 }
 
 .television{
     position: relative;
-    top: 145px;
+    top: 120px;
 }
 
 .c8{
     position: relative;
-    top: 150px;
+    top: 200px;
 }
 .c9{
     position: relative;
-    top: 178px;
+    top: 105px;
+    /* background: red; */
 }
 
 .certificate{
     position: relative;
-    top: 200px;
+    top: 230px;
 }
 
 .c10{
     position: relative;
-    top: 212px;
+    top: 232px;
 }
 
 .c11{
     position: relative;
-    top: 212px;
+    top: 238px;
+}
+
+.components{
+    position: relative;
+    display: flex;
+    /* background: red; */
+    justify-content: space-between;
+    width: 135%;
+}
+
+.gray{
+    background: #999;
+}
+.exc, .verygood{
+    display: flex;
+}
+.exc>div, .verygood>div{
+    margin: 5px;
+}
+.components >div p{
+    margin-left: 25px
 }
