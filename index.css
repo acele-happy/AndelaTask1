@@ -174,3 +174,35 @@
 .components >div p{
     margin-left: 25px
 }
+
+.icon>span .fa{
+    color: #0f2d56;
+    padding: 5px;
+    border-radius: 50%;
+}
+.left .white b{
+    position: relative;
+    color: #fff;
+    left: 100px;
+}
+
+.left p{
+    position: relative
+}
+.p1{
+    top: 340px;
+}
+.p2{
+    top: 465px;
+}
+.p3{
+    top: 630px;
+}
+.p4{
+    top: 86%;
+    left: 70px;
+}
+.p5{
+    top: 86%;
+    left: 70px;
+}
