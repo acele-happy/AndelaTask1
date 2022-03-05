@@ -144,7 +144,16 @@
   position: relative;
   top: 230px;
 }
-
+.certificate .fa{
+    position: relative;
+    left: 8px;
+    top: 5px;
+}
+.puzzle .fa{
+    position: relative;
+    left: 9px;
+    top: 5px;
+}
 .c10 {
   position: relative;
   top: 232px;
