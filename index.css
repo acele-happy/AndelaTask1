@@ -221,3 +221,6 @@
 .content p {
   margin-bottom: 7px;
 }
+.name{
+    cursor: pointer;
+}

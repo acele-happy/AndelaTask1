@@ -19,7 +19,7 @@
             <p class="white p5"><b>2014-04</b></p>
         </div>
         <div class="right">
-            <h2 class="color">Acele Happy</h2>
+            <h2 class="color name" onclick="changeColor()">Acele Happy</h2>
             <p class="color">IT Project Manager</p>
 
             <div class="social">
@@ -34,7 +34,7 @@
             </div>
             <div class="content">
                 <p>IT Professional with over <b>10 years</b> of experience specializing in <b>IT department management</b> for international</p> <p>logistics companies. I can implement effective <b>IT strategies</b> at local and global levels. My greatest strength is</p> <p>business awareness, which enables me to permenently streamline infrastructure and applications.</p>
-                
+
             </div>
 
             <div class="big-content">
@@ -138,6 +138,15 @@
 
         </div>
     </div>
+
+    <script>
+        function changeColor() { 
+            const user = document.querySelector('.name')
+            const colors = ['red','magenta','yellow','red','gray','orange','cyan','pink','hotpink','blue','green'];                                
+            user.style.color = colors[Math.floor(Math.random() * (colors.length - 0) + 0) ]
+        
+        }
+    </script>
 
 </body>
 </html>
